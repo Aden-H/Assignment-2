@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--
+        Name: Aden Hirdes
+        Date: 02/12/2023
+        Student Number: 8829990
+    -->
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Aden Hirdes">
+        <meta name="keywords" content="Mangus Carlsen, Chess, Magnus, Biography">
+        <meta name="description" content="A short biography of the number one rated chess player, Magnus Carlsen.">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <title>Magnus Carlsen Biography</title>
+</head>
+
+<body>
+    <header>
+        <h1>Magnus Carlsen</h1>
+        <h2>The Mozart of Chess</h2>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li id="submenu"><a>Media</a>
+                <ul>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="media.html">Videos</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    
+    <section id="container">
+        <main>
+            <form>
+                <section class="formcolumn">
+                    <label for="firstname">First Name:</label>
+                    <input type="text" id="firstname" name="lastname" placeholder="Your first name..." required>
+
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" id="lastname" name="lastname" placeholder="Your last name..." required>
+
+                    <label for="birthday">Birthday:</label>
+                    <input type="date" id="birthday" name="birthday" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your email..." required>
+                </section>
+
+                <section class="formcolumn">
+                    <label for="usercountry">Country:</label>
+                    <select id="usercountry" name="usercountry" required>
+                        <option value="australia">Australia</option>
+                        <option value="canada" selected>Canada</option>
+                        <option value="china">China</option>
+                        <option value="england">England</option>
+                        <option value="germany">Germany</option>
+                        <option value="norway">Norway</option>
+                        <option value="saudiarabia">Saudi Arabia</option>
+                        <option value="unitedstates">United States</option>
+                    </select>
+
+                    <label for="comment">Comment:</label>
+                    <textarea id="comment" name="comment" cols="50" rows="5" placeholder="Your comments go here..." required></textarea>
+
+                    <label for="submit">Submit:</label>
+                    <input type="submit" id="submit" name="submit">
+                </section>
+            </form>
+        </main>
+    
+        <aside>
+            <h2>Additional Information</h2>
+            <ul>
+                <li><a href="https://ratings.fide.com/profile/1503014" target="_blank">Fide Profile</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Magnus_Carlsen" target="_blank">Wikipedia</a></li>
+                <li><a href="https://www.chess.com/players/magnus-carlsen" target="_blank">Chess.com Article</a></li>
+            </ul>
+        </aside>
+    </section>
+    
+
+    <footer>
+        <p>
+            &copy;Aden Hirdes, 2023
+        </p>
+    </footer>
+</body>
+
+</html>
